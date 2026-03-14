@@ -1,10 +1,21 @@
+// App.swift
+// Reziphay
+//
+// Author: Vugar Safarzada (@vugarsafarzada)
+
 import SwiftUI
 
 @main
 struct ReziphayApp: App {
+    @State private var appState = AppState.shared
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environment(appState)
+                .task {
+                    await appState.bootstrap()
+                }
         }
     }
 }
