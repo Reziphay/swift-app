@@ -1,0 +1,1594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0020BD89D77B7237FE829283 /* OTPVerificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BC936860F21FEC29E8910 /* OTPVerificationScreen.swift */; };
+		01DAE52138A531CA96D0A71E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D0A8DF86CBD21405D081B /* User.swift */; };
+		020633527A81C9CC24A4302C /* RZSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC47A952C444B1DE7575A2 /* RZSearchField.swift */; };
+		034373AEA3DCBCEF3A68E0D5 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76311C7B62945FC96581706 /* WelcomeScreen.swift */; };
+		0409C2E191F7C8E4586CEED3 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5155547C217260FFDD31B4 /* RegisterScreen.swift */; };
+		062033549CBE635B235D9A2E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963938B512E6E85E4ED0FBA7 /* Service.swift */; };
+		0A4D4AD9331F757C91436F07 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0239FEB6926794A58E8A390B /* APIError.swift */; };
+		0E5CAA035E74112B83B742D0 /* ServiceDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81398C7C335AC2BF9CED3818 /* ServiceDetailScreen.swift */; };
+		1765D2C43152E3407CE3C4C9 /* EmailLinkResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5D471CB5BB45C2FC5C71F /* EmailLinkResultScreen.swift */; };
+		1B18DF52A4FCD27F42B2319A /* CustomerReservationsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3A475D935247C28F5E05F /* CustomerReservationsListScreen.swift */; };
+		1BFB472EDB32907C97BC19A0 /* ProviderBrandDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4EC80C840F0F51A9870E2D /* ProviderBrandDetailScreen.swift */; };
+		1CDA13C8519EAD901E4B9356 /* CreateBrandScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED82B705AC62C23BDFA5CCE /* CreateBrandScreen.swift */; };
+		1DB43CEE65BDD4832EED4CB2 /* ProviderTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37DFA6E8EDAB125976A75AE /* ProviderTabView.swift */; };
+		1F0F47210E2DB4AA4A55A811 /* CancelReservationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD92FCCC79754C014C6D729 /* CancelReservationSheet.swift */; };
+		1FB091476B32A137A1DC33E7 /* UserDefaultsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6C2708E6B48CDC0D4FFD1 /* UserDefaultsStore.swift */; };
+		1FB38E1E4E951ED714A9F445 /* ReziphayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551F5E831B23F72C05970BA /* ReziphayApp.swift */; };
+		231C6B3F3A4900D4207AC7CE /* RZBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3F99AE43C892F81E8A0FA4 /* RZBottomSheet.swift */; };
+		23FD1284CC6583C87DBD35A6 /* RZStarSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7901B47300D08A308CBF98B /* RZStarSelector.swift */; };
+		252901EAD06471A9D02D7F67 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC8634421A2ECD584182AA /* Report.swift */; };
+		254C98BEB1311C133A6B8E76 /* ProviderChangeRequestSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F73F0F6ADD0653B04D6F65 /* ProviderChangeRequestSheet.swift */; };
+		25CBE7EFE74B70D7061D8764 /* BrandDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330B553B8BB4861846E50AF /* BrandDetailScreen.swift */; };
+		2717D6705F2D9879B15CFB08 /* RZRatingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16B5572C9E078A0A3D22C1 /* RZRatingRow.swift */; };
+		2F8E16FFCD0F7447015051ED /* ReservationSuccessScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCFCE73539514E22A7B61D8 /* ReservationSuccessScreen.swift */; };
+		34B3B8E936E68061BDE9B451 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DA455989C74C20816EE3B /* SplashScreen.swift */; };
+		360A0D25EB9A797EFEB6E83E /* ReviewDeleteConfirmationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC9C1429EFB7D7CF42C1CE /* ReviewDeleteConfirmationSheet.swift */; };
+		364DA6DEF9201BFE041208D5 /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37AE8FB350CF962AF8E17D5 /* Shadows.swift */; };
+		38090E0532DE9F8C71038392 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F434E84C720B8DB316B06149 /* Notification.swift */; };
+		387B60BAEFE200402F9107E0 /* ProviderDashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ABD94C8CC174217B54E428 /* ProviderDashboardScreen.swift */; };
+		39074EF33BF1BFA4D9ECACE6 /* ProviderDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C43B98F864F349A0026214 /* ProviderDetailScreen.swift */; };
+		398B71716D447B99B687ABAC /* RZAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0780DF3ED2E2C58F8DE2 /* RZAvatarView.swift */; };
+		3CDA440C6E562A2660EC9C58 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AAD90325A18618E3A09E1 /* Brand.swift */; };
+		3D23E0AEC90C2A4E5CB0872B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51132287F93AC430D4F50942 /* String+Extensions.swift */; };
+		3E039E7D7412DCE554CB7072 /* RZToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096EFFEB3637EFBBE873F1DC /* RZToast.swift */; };
+		40649D546C573197C3B153FC /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2BCCAD844F738B75FAFDD5 /* APIResponse.swift */; };
+		406F5301162C139CA6C51AF0 /* RZOTPField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55BFC2957372E73477BB8E7 /* RZOTPField.swift */; };
+		4A375EF7FF9B1379F6F8CF9C /* RZEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2564D4025ABAD0CF4182AF91 /* RZEmptyState.swift */; };
+		4B0CEE595D83EDE84E24ED3A /* BrandListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24D5235757552A0013CF25 /* BrandListScreen.swift */; };
+		4B40636993E7965CDB9D352D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA55160B4C43615A615FB93 /* LoginScreen.swift */; };
+		4F01F2C381EF6F72EED57B70 /* ProviderQRScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74397371AF94A0114853FD03 /* ProviderQRScreen.swift */; };
+		4FB4B0B7A3F89AD18CE2ABBC /* ReviewDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4631D6CBF56E050D806D19E /* ReviewDetailSheet.swift */; };
+		509F04D39CB244A61F341A14 /* RZTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7C4D995CF6796488A25CA /* RZTopBar.swift */; };
+		512A61D80B5E6913E6F65190 /* RZImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA9FD261E01BAC9764BE51 /* RZImageCarousel.swift */; };
+		5209D046304439ECD6C18F1F /* PlaceholderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190007290882A636D50DB222 /* PlaceholderScreen.swift */; };
+		526B119086C71EAFC4517442 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB6C39CA85441AFFD3396C /* Spacing.swift */; };
+		542DD1820971E184DB7F918E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9678845286195AE83876E7 /* APIClient.swift */; };
+		57A8A3BC9D33133B8735274D /* ProviderCancelReservationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B61097215B0D3539F0C9B /* ProviderCancelReservationSheet.swift */; };
+		5874E731FF5C020FF955E94F /* Penalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC3E3FBF042C6DF78FCA34 /* Penalty.swift */; };
+		5F4C9635FDB79AA7F588BDDE /* OtherEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2535035C3F3113D22E99B48 /* OtherEnums.swift */; };
+		6195FD9AE6279F83420F7F48 /* ReservationRequestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A22B943CEBF344609AE553 /* ReservationRequestScreen.swift */; };
+		63A6EB63B0C3F84DFBBC5EF9 /* TokenPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAE6A3BE46A5B8C6163729 /* TokenPayload.swift */; };
+		63B4F42DDC20B5DD43AA7778 /* RoleSwitchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4CAF3FF2E7E4F9C13CC21 /* RoleSwitchSheet.swift */; };
+		659071E1E56222AAEE37EF9B /* UserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E326631FFC3248C7C4C7567A /* UserStatus.swift */; };
+		65BB083A96148E2C8EDF8E60 /* ReservationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC16A630BE6A9CE0EB049AB /* ReservationCard.swift */; };
+		6770749600EC93F756E7F638 /* AuthFlowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4ADFEF47333A8A6039F81 /* AuthFlowState.swift */; };
+		68A96A4D26C5B7283F8488DE /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD897CCA4E0E274758AF4A /* AuthManager.swift */; };
+		71FA79C46653F73B137C451D /* RZTimelineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6719926BDF401D922B7DE01C /* RZTimelineItem.swift */; };
+		749F409CB9B68808CDFEAA7F /* RZFilterChipRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9522B0520BA403FB4C44351 /* RZFilterChipRow.swift */; };
+		7786308EB4FB10635B7E1309 /* RZConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC53EB7850126232B689E1DB /* RZConfirmationDialog.swift */; };
+		84288CB8BDD747E5409E0FAA /* RZSkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E4F2CC665E1DDB173BC24 /* RZSkeletonView.swift */; };
+		8788A2A02AF4D9E972BEF58E /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29253222DE27FAA1EA361796 /* ProfileScreen.swift */; };
+		8AF7E68079A619B7AD0796E5 /* RZTextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0019E405D6780A5DF2EA2B /* RZTextArea.swift */; };
+		8C08C6E2D72815B23E7D3C43 /* ReviewCreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E2E480AC636EDCDCA35E7 /* ReviewCreateScreen.swift */; };
+		8D3637A816FD2711F9015EB2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225268553BD62B0EE4F809C /* Colors.swift */; };
+		9021FBADE290F3FFECA96EF9 /* NotFoundScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FC5C24B3C008C0F33A4FBA /* NotFoundScreen.swift */; };
+		91DD32E6A9C5C481AF597BCF /* RZSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03497C69564E9353863FDF18 /* RZSectionHeader.swift */; };
+		92F1972C851F4C5C5E0904FE /* ProviderReservationsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ECA8A22E086F0CC9446A8E /* ProviderReservationsListScreen.swift */; };
+		935B8F7ED97E81D2366F4042 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14D38F51CD71B8FFE75296 /* Reservation.swift */; };
+		9428C72FFE387E6C8BD811BB /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C0C23B09B933C7329EAA3 /* Typography.swift */; };
+		95E405B8846E9B6E3CD6BA69 /* AvailabilityExceptionsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65860463B0B27C749564F9E0 /* AvailabilityExceptionsSection.swift */; };
+		97819C55A2102F7A54AFBBFE /* QRScanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05CF33F764C1EBCE16EAC1 /* QRScanScreen.swift */; };
+		97EE42E868F4258A139B35B0 /* AccountClosedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B789A0614E2178046E953B /* AccountClosedScreen.swift */; };
+		9B1ADCDB81CA95540997CF7A /* ServicesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0506755F2A7227C714A2F8AC /* ServicesListScreen.swift */; };
+		9BEA09F847A683C12B733DF6 /* CustomerReservationDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49BECD978486C177770DA7 /* CustomerReservationDetailScreen.swift */; };
+		9F6AF747D94B6E2EE983BC8E /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC978BAE7C54B2C3B35550F /* SearchScreen.swift */; };
+		A15BF0AFBBF93894DA0926BD /* RZLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BA76750187EFEC4BE27B1 /* RZLoadingIndicator.swift */; };
+		A4D21B3559FB5298FD2A3532 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E956409BA1F8505E55E9 /* AppRouter.swift */; };
+		A60D1733661FC599077DF838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C6DA3EF9DB9CA58A66508A /* Assets.xcassets */; };
+		A72BE103F9509E5EF0FD8FF8 /* Durations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AB4C011E23F2ED2C753ACD /* Durations.swift */; };
+		A914B49E4A9E9994D7E676D0 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016165A2F0D4319670B51E6 /* NotificationType.swift */; };
+		A9A19699D54709C1CC22C251 /* RZPhoneField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9D15D247A7BEE55F39A75 /* RZPhoneField.swift */; };
+		AC229EFF33C62928E337BDF4 /* SearchFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE6EAB09807743C71055D81 /* SearchFilterSheet.swift */; };
+		B01353C6A943555F091840D7 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431FFE31C762EB6B3617F33 /* APIEndpoints.swift */; };
+		B391B0C9D3899EAD14C90C5A /* RZTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20780F9F74063B94524D323 /* RZTextField.swift */; };
+		B5BB24A6ED9F4B4D03F6B320 /* BrandJoinRequestsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5EE49CF538F66FEC80433 /* BrandJoinRequestsScreen.swift */; };
+		B6CBB9E7D27EFD676411B15B /* ServiceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A436B1FDEFD93DCC46264FE /* ServiceCard.swift */; };
+		BA1800EB544586AAF23098FC /* ReservationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B29410B7CFAFF3E368DCE9 /* ReservationStatus.swift */; };
+		BAE3B3508E4CCDD1CCA1004E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B64883D44DB8B7D5BDB77F2 /* LocationManager.swift */; };
+		BC7184587D064527418A7C98 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1FD27FB715B731B6BC61C3 /* Date+Extensions.swift */; };
+		C1E5CCDEE7FC3631C6284C76 /* ObjectionSubmissionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20518B3E89126874B040E72 /* ObjectionSubmissionScreen.swift */; };
+		C66B6D943B79469BAC39FEC2 /* ProviderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A82907FFCB313ACCA6BC37 /* ProviderCard.swift */; };
+		C87D2A93D5C0EB09F91A2E5B /* CustomerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA80BF608070866C61ACC25 /* CustomerTabView.swift */; };
+		CED1CA273785C1D1009CFECF /* AccountSuspendedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395730DE0D8276B121CF150 /* AccountSuspendedScreen.swift */; };
+		D36B5E221ED0677A1F368608 /* PenaltySummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9251B0215116734C15C1A43 /* PenaltySummaryScreen.swift */; };
+		D380CF31C83CB6D0B3EB11DB /* AvailabilityRulesEditorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8443352426F9E58B7DAA45 /* AvailabilityRulesEditorSection.swift */; };
+		D3DED39EC61D2B07298D7905 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709CF0F68E973799C666374 /* PushNotificationManager.swift */; };
+		D4B199BBB4CB2343EB435492 /* BrandCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62FB39DE94DF64BCB8C6E7 /* BrandCard.swift */; };
+		D695AAB33079B08FE7481B69 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6B6DD5EF85BDFBBC8455F /* AppState.swift */; };
+		D91B21611025499F2B7CD46C /* RZTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337CCEB596C9FC0A4500735 /* RZTabBar.swift */; };
+		D91DF6D1B957851430573542 /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF863648257FEBB5A9E297ED /* Radius.swift */; };
+		DA18CEFE49B5FAE54AEB37BF /* RZButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979D9D76C37A8FD07E08BFD /* RZButton.swift */; };
+		DB2ABD142059C6F2D20E4056 /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFDD2595BF113421B87B38 /* DayOfWeek.swift */; };
+		DBC2353B4F3C58E130BB3525 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FA3E6A68CC768B2B692FBB /* SearchResult.swift */; };
+		DD059DAE999B1BE91AFE3A57 /* QRCompletionResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B7B035EB5C391EDE1864C /* QRCompletionResultScreen.swift */; };
+		DD291999228F968C0A91B4F6 /* CategoryDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC0871C5602516B2F0910D /* CategoryDetailScreen.swift */; };
+		DE3E5A28AF11D7FF7B70BEE2 /* RZSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE762D6E3597C5A37A4B2405 /* RZSegmentedControl.swift */; };
+		DF74F21CC00590310CCFFACA /* ProviderReservationDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D97A21AB1C59ED9129CE3 /* ProviderReservationDetailScreen.swift */; };
+		DFB69D3A97D6CEB1D97143EB /* RZCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E174882478EC692C4B750 /* RZCard.swift */; };
+		DFEC06DB09C01F7E520E10EE /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB1F8B1E62498C355F71AA /* Review.swift */; };
+		E03FA60015F21450772DD37F /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA96F54E420724ED3820F885 /* SettingsScreen.swift */; };
+		E44A85E09E9292544FAB9546 /* ReportSubmissionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206C7E675EBB8D72B6F187C /* ReportSubmissionSheet.swift */; };
+		E58DFCAE76EBB70521E8269F /* RZStatusPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60FA52F01927E904F08773 /* RZStatusPill.swift */; };
+		E745687B7097833FAAEB7B11 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E6755EDD564C9518F2F5F /* Route.swift */; };
+		EC9018B73C95E7E2891C14D0 /* ReviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2E9738C106DA34BF1CE9E /* ReviewCard.swift */; };
+		F336FFCC392B3A0978A59724 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D73360F20A7BE2172D98A9 /* KeychainService.swift */; };
+		F4495F8082AD7874295013E7 /* ChangeReservationRequestSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3769068C7E5C0D53237F1805 /* ChangeReservationRequestSheet.swift */; };
+		F93B29C5F016EAC8E9F5E2BE /* ServiceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66AA637CE60B7DE9766F868 /* ServiceCategory.swift */; };
+		F96154525901CC0CBA76AB41 /* AppRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E06C02128B764CC17573C5B /* AppRole.swift */; };
+		F9D5014CE0666A0B8C1E789B /* EditBrandScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1060FC3A4F341AB818411CA7 /* EditBrandScreen.swift */; };
+		FA2BA91749F4A570EE4EED44 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6725C962511A12C12DBD9 /* ServiceType.swift */; };
+		FBC496AF965DA29773B4C121 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4790E0D710BC0CAEAAA6C720 /* View+Extensions.swift */; };
+		FCC4F311C2A9E8E9FC9D398D /* NotificationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E51D3B164D0C4992F75F6B /* NotificationsScreen.swift */; };
+		FE1DA6316064CA949E49D3A2 /* CustomerHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1137C87EEFEE581AC2F3BCD /* CustomerHomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0239FEB6926794A58E8A390B /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		02FA9FD261E01BAC9764BE51 /* RZImageCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZImageCarousel.swift; sourceTree = "<group>"; };
+		03497C69564E9353863FDF18 /* RZSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZSectionHeader.swift; sourceTree = "<group>"; };
+		0506755F2A7227C714A2F8AC /* ServicesListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListScreen.swift; sourceTree = "<group>"; };
+		096EFFEB3637EFBBE873F1DC /* RZToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZToast.swift; sourceTree = "<group>"; };
+		0A436B1FDEFD93DCC46264FE /* ServiceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCard.swift; sourceTree = "<group>"; };
+		0B62FB39DE94DF64BCB8C6E7 /* BrandCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCard.swift; sourceTree = "<group>"; };
+		0DA5D471CB5BB45C2FC5C71F /* EmailLinkResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLinkResultScreen.swift; sourceTree = "<group>"; };
+		1060FC3A4F341AB818411CA7 /* EditBrandScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBrandScreen.swift; sourceTree = "<group>"; };
+		10A82907FFCB313ACCA6BC37 /* ProviderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderCard.swift; sourceTree = "<group>"; };
+		16DAE6A3BE46A5B8C6163729 /* TokenPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenPayload.swift; sourceTree = "<group>"; };
+		190007290882A636D50DB222 /* PlaceholderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderScreen.swift; sourceTree = "<group>"; };
+		1AC16A630BE6A9CE0EB049AB /* ReservationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCard.swift; sourceTree = "<group>"; };
+		1BE6EAB09807743C71055D81 /* SearchFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterSheet.swift; sourceTree = "<group>"; };
+		1CE4CAF3FF2E7E4F9C13CC21 /* RoleSwitchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSwitchSheet.swift; sourceTree = "<group>"; };
+		1F0D97A21AB1C59ED9129CE3 /* ProviderReservationDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderReservationDetailScreen.swift; sourceTree = "<group>"; };
+		208E174882478EC692C4B750 /* RZCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCard.swift; sourceTree = "<group>"; };
+		2395730DE0D8276B121CF150 /* AccountSuspendedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSuspendedScreen.swift; sourceTree = "<group>"; };
+		2564D4025ABAD0CF4182AF91 /* RZEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZEmptyState.swift; sourceTree = "<group>"; };
+		25E9D15D247A7BEE55F39A75 /* RZPhoneField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZPhoneField.swift; sourceTree = "<group>"; };
+		2709CF0F68E973799C666374 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		29253222DE27FAA1EA361796 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		2B14D38F51CD71B8FFE75296 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		2D0AAD90325A18618E3A09E1 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		2D3F99AE43C892F81E8A0FA4 /* RZBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZBottomSheet.swift; sourceTree = "<group>"; };
+		35A22B943CEBF344609AE553 /* ReservationRequestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationRequestScreen.swift; sourceTree = "<group>"; };
+		3769068C7E5C0D53237F1805 /* ChangeReservationRequestSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeReservationRequestSheet.swift; sourceTree = "<group>"; };
+		39AD897CCA4E0E274758AF4A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		3E06C02128B764CC17573C5B /* AppRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRole.swift; sourceTree = "<group>"; };
+		4337CCEB596C9FC0A4500735 /* RZTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZTabBar.swift; sourceTree = "<group>"; };
+		4431FFE31C762EB6B3617F33 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		4790E0D710BC0CAEAAA6C720 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		4979D9D76C37A8FD07E08BFD /* RZButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZButton.swift; sourceTree = "<group>"; };
+		4ED82B705AC62C23BDFA5CCE /* CreateBrandScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBrandScreen.swift; sourceTree = "<group>"; };
+		4FC7C4D995CF6796488A25CA /* RZTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZTopBar.swift; sourceTree = "<group>"; };
+		51132287F93AC430D4F50942 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		51BC47A952C444B1DE7575A2 /* RZSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZSearchField.swift; sourceTree = "<group>"; };
+		52BC8634421A2ECD584182AA /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		5B8443352426F9E58B7DAA45 /* AvailabilityRulesEditorSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityRulesEditorSection.swift; sourceTree = "<group>"; };
+		5CF6B6DD5EF85BDFBBC8455F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		5F60FA52F01927E904F08773 /* RZStatusPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZStatusPill.swift; sourceTree = "<group>"; };
+		610E4F2CC665E1DDB173BC24 /* RZSkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZSkeletonView.swift; sourceTree = "<group>"; };
+		63B29410B7CFAFF3E368DCE9 /* ReservationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationStatus.swift; sourceTree = "<group>"; };
+		65860463B0B27C749564F9E0 /* AvailabilityExceptionsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityExceptionsSection.swift; sourceTree = "<group>"; };
+		6719926BDF401D922B7DE01C /* RZTimelineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZTimelineItem.swift; sourceTree = "<group>"; };
+		68FC5C24B3C008C0F33A4FBA /* NotFoundScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundScreen.swift; sourceTree = "<group>"; };
+		6D1FD27FB715B731B6BC61C3 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		6F9678845286195AE83876E7 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		6FE3A475D935247C28F5E05F /* CustomerReservationsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerReservationsListScreen.swift; sourceTree = "<group>"; };
+		707E0B743168020B1BDEDC8B /* Reziphay.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Reziphay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DC0871C5602516B2F0910D /* CategoryDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailScreen.swift; sourceTree = "<group>"; };
+		74397371AF94A0114853FD03 /* ProviderQRScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderQRScreen.swift; sourceTree = "<group>"; };
+		7EA80BF608070866C61ACC25 /* CustomerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTabView.swift; sourceTree = "<group>"; };
+		81398C7C335AC2BF9CED3818 /* ServiceDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailScreen.swift; sourceTree = "<group>"; };
+		8330B553B8BB4861846E50AF /* BrandDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDetailScreen.swift; sourceTree = "<group>"; };
+		837E2E480AC636EDCDCA35E7 /* ReviewCreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCreateScreen.swift; sourceTree = "<group>"; };
+		8C7DA455989C74C20816EE3B /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		8DA55160B4C43615A615FB93 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		91EB1F8B1E62498C355F71AA /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		948BC936860F21FEC29E8910 /* OTPVerificationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationScreen.swift; sourceTree = "<group>"; };
+		94AB4C011E23F2ED2C753ACD /* Durations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Durations.swift; sourceTree = "<group>"; };
+		963938B512E6E85E4ED0FBA7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		968B61097215B0D3539F0C9B /* ProviderCancelReservationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderCancelReservationSheet.swift; sourceTree = "<group>"; };
+		97ECA8A22E086F0CC9446A8E /* ProviderReservationsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderReservationsListScreen.swift; sourceTree = "<group>"; };
+		99E51D3B164D0C4992F75F6B /* NotificationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsScreen.swift; sourceTree = "<group>"; };
+		9AC978BAE7C54B2C3B35550F /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		9B64883D44DB8B7D5BDB77F2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9D0BA76750187EFEC4BE27B1 /* RZLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZLoadingIndicator.swift; sourceTree = "<group>"; };
+		A2B789A0614E2178046E953B /* AccountClosedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountClosedScreen.swift; sourceTree = "<group>"; };
+		A551F5E831B23F72C05970BA /* ReziphayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReziphayApp.swift; sourceTree = "<group>"; };
+		AA96F54E420724ED3820F885 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		AAC2E9738C106DA34BF1CE9E /* ReviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCard.swift; sourceTree = "<group>"; };
+		AB5155547C217260FFDD31B4 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		AE2BCCAD844F738B75FAFDD5 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		AE762D6E3597C5A37A4B2405 /* RZSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZSegmentedControl.swift; sourceTree = "<group>"; };
+		B225268553BD62B0EE4F809C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B2535035C3F3113D22E99B48 /* OtherEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherEnums.swift; sourceTree = "<group>"; };
+		B4631D6CBF56E050D806D19E /* ReviewDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetailSheet.swift; sourceTree = "<group>"; };
+		B76311C7B62945FC96581706 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		BD16B5572C9E078A0A3D22C1 /* RZRatingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZRatingRow.swift; sourceTree = "<group>"; };
+		BD4EC80C840F0F51A9870E2D /* ProviderBrandDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderBrandDetailScreen.swift; sourceTree = "<group>"; };
+		BF863648257FEBB5A9E297ED /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		C04C0C23B09B933C7329EAA3 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		C20518B3E89126874B040E72 /* ObjectionSubmissionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectionSubmissionScreen.swift; sourceTree = "<group>"; };
+		C2C43B98F864F349A0026214 /* ProviderDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetailScreen.swift; sourceTree = "<group>"; };
+		C3FA3E6A68CC768B2B692FBB /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		C9522B0520BA403FB4C44351 /* RZFilterChipRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZFilterChipRow.swift; sourceTree = "<group>"; };
+		C9D73360F20A7BE2172D98A9 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		CA49BECD978486C177770DA7 /* CustomerReservationDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerReservationDetailScreen.swift; sourceTree = "<group>"; };
+		CA77E956409BA1F8505E55E9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		CC53EB7850126232B689E1DB /* RZConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZConfirmationDialog.swift; sourceTree = "<group>"; };
+		CCC6725C962511A12C12DBD9 /* ServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
+		CDD92FCCC79754C014C6D729 /* CancelReservationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelReservationSheet.swift; sourceTree = "<group>"; };
+		CE9D0A8DF86CBD21405D081B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D1137C87EEFEE581AC2F3BCD /* CustomerHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHomeScreen.swift; sourceTree = "<group>"; };
+		D206C7E675EBB8D72B6F187C /* ReportSubmissionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSubmissionSheet.swift; sourceTree = "<group>"; };
+		D20780F9F74063B94524D323 /* RZTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZTextField.swift; sourceTree = "<group>"; };
+		D37AE8FB350CF962AF8E17D5 /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		D48B7B035EB5C391EDE1864C /* QRCompletionResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCompletionResultScreen.swift; sourceTree = "<group>"; };
+		D66AA637CE60B7DE9766F868 /* ServiceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCategory.swift; sourceTree = "<group>"; };
+		D7901B47300D08A308CBF98B /* RZStarSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZStarSelector.swift; sourceTree = "<group>"; };
+		D7CC3E3FBF042C6DF78FCA34 /* Penalty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penalty.swift; sourceTree = "<group>"; };
+		D7F4ADFEF47333A8A6039F81 /* AuthFlowState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlowState.swift; sourceTree = "<group>"; };
+		D9251B0215116734C15C1A43 /* PenaltySummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenaltySummaryScreen.swift; sourceTree = "<group>"; };
+		D9AC9C1429EFB7D7CF42C1CE /* ReviewDeleteConfirmationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDeleteConfirmationSheet.swift; sourceTree = "<group>"; };
+		D9C6DA3EF9DB9CA58A66508A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3E6755EDD564C9518F2F5F /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		DC0019E405D6780A5DF2EA2B /* RZTextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZTextArea.swift; sourceTree = "<group>"; };
+		DC05CF33F764C1EBCE16EAC1 /* QRScanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanScreen.swift; sourceTree = "<group>"; };
+		DFCFCE73539514E22A7B61D8 /* ReservationSuccessScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationSuccessScreen.swift; sourceTree = "<group>"; };
+		E016165A2F0D4319670B51E6 /* NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationType.swift; sourceTree = "<group>"; };
+		E0C6C2708E6B48CDC0D4FFD1 /* UserDefaultsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStore.swift; sourceTree = "<group>"; };
+		E26C0780DF3ED2E2C58F8DE2 /* RZAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZAvatarView.swift; sourceTree = "<group>"; };
+		E326631FFC3248C7C4C7567A /* UserStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatus.swift; sourceTree = "<group>"; };
+		E37DFA6E8EDAB125976A75AE /* ProviderTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderTabView.swift; sourceTree = "<group>"; };
+		E7CB6C39CA85441AFFD3396C /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		EDB332C07B87168996549232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE24D5235757552A0013CF25 /* BrandListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandListScreen.swift; sourceTree = "<group>"; };
+		F1AFDD2595BF113421B87B38 /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
+		F1F73F0F6ADD0653B04D6F65 /* ProviderChangeRequestSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderChangeRequestSheet.swift; sourceTree = "<group>"; };
+		F2ABD94C8CC174217B54E428 /* ProviderDashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDashboardScreen.swift; sourceTree = "<group>"; };
+		F434E84C720B8DB316B06149 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		F55BFC2957372E73477BB8E7 /* RZOTPField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZOTPField.swift; sourceTree = "<group>"; };
+		F6C5EE49CF538F66FEC80433 /* BrandJoinRequestsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandJoinRequestsScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		013E9687C1E8D743745EEF09 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				0B62FB39DE94DF64BCB8C6E7 /* BrandCard.swift */,
+				10A82907FFCB313ACCA6BC37 /* ProviderCard.swift */,
+				1AC16A630BE6A9CE0EB049AB /* ReservationCard.swift */,
+				AAC2E9738C106DA34BF1CE9E /* ReviewCard.swift */,
+				208E174882478EC692C4B750 /* RZCard.swift */,
+				0A436B1FDEFD93DCC46264FE /* ServiceCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		022157FBBE6C63B58594111B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		02E158E12CEC3E273C083F67 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				AED4FD5F1D33E44E282E29CD /* ViewModels */,
+				D597EA40E3243E7189FF158B /* Views */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		064EA0AE574F8F41408CC961 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC9D1521C54300FA19C91F /* Discovery */,
+				A1FB088105BC5512DACD57F4 /* Reservations */,
+				A73D9E4714C51449B3B3C077 /* Reviews */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		0C44E2220E325B351883AF69 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DFA5D43B9BF92466364B799 /* RoleSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				D5A4ACF2324EC19BD96ED08F /* ViewModels */,
+				BDC97E9C4543169D629C1378 /* Views */,
+			);
+			path = RoleSwitch;
+			sourceTree = "<group>";
+		};
+		10100DD1B0FE9570571AA10C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F11C2BF76DB26F162D9A10FB /* ViewModels */,
+				5DB799549083E2BABF7D5F1E /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		10A8E8C90A8146EADE95D291 /* CustomerReservations */ = {
+			isa = PBXGroup;
+			children = (
+				1656C74D597716B07988DEEB /* ViewModels */,
+				493FF94558D53635891A37F7 /* Views */,
+			);
+			path = CustomerReservations;
+			sourceTree = "<group>";
+		};
+		1656C74D597716B07988DEEB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1676F9693AEEE56A87E1798C /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				B225268553BD62B0EE4F809C /* Colors.swift */,
+				94AB4C011E23F2ED2C753ACD /* Durations.swift */,
+				BF863648257FEBB5A9E297ED /* Radius.swift */,
+				D37AE8FB350CF962AF8E17D5 /* Shadows.swift */,
+				E7CB6C39CA85441AFFD3396C /* Spacing.swift */,
+				C04C0C23B09B933C7329EAA3 /* Typography.swift */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		1A5AE878D60F73584AA69B6C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		20927A5B04DA3A2A0BF349D4 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				9B64883D44DB8B7D5BDB77F2 /* LocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		225D337BAF65D4B9C2BF1AAA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		23590D6DA6302C4D3CF82858 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		273F19317582328F56B6B6A4 /* Objection */ = {
+			isa = PBXGroup;
+			children = (
+				74097DB116CCDCDC92A39FF8 /* ViewModels */,
+				98EDD58CECDB358AB555B585 /* Views */,
+			);
+			path = Objection;
+			sourceTree = "<group>";
+		};
+		2783440EC7AEAC22A6C69C2F /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				2564D4025ABAD0CF4182AF91 /* RZEmptyState.swift */,
+				9D0BA76750187EFEC4BE27B1 /* RZLoadingIndicator.swift */,
+				610E4F2CC665E1DDB173BC24 /* RZSkeletonView.swift */,
+				5F60FA52F01927E904F08773 /* RZStatusPill.swift */,
+				096EFFEB3637EFBBE873F1DC /* RZToast.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		3103BD36D92E4BE70FF92DE4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C0560C5824C62F3C3CB35BF6 /* Auth */,
+				338E926CB5DF2DC6041A6A75 /* BrandDetail */,
+				6A2C9B53A1786669AA73A613 /* Brands */,
+				3999997FCA54BDDC32A453BB /* Common */,
+				10A8E8C90A8146EADE95D291 /* CustomerReservations */,
+				A8B73FACA1BB89039C5573A1 /* CustomerShell */,
+				10100DD1B0FE9570571AA10C /* Home */,
+				F3C895487FE92167D37D367A /* Notifications */,
+				273F19317582328F56B6B6A4 /* Objection */,
+				9777D259807EBECD8B25F2E4 /* Penalty */,
+				E372EA1BB8B78EA3FA94CF6D /* Profile */,
+				8AFA09F5F392FC3D6432423A /* ProviderDashboard */,
+				D248ECA91E34BE02F62312BB /* ProviderDetail */,
+				347AF5C6C73956A161EDFAAF /* ProviderReservations */,
+				B2E725D8A0536F037BD7DEA1 /* ProviderServices */,
+				7FFBE26A83AE14564A33BD48 /* ProviderShell */,
+				844303B4B56929D0936079D3 /* QRFlow */,
+				02E158E12CEC3E273C083F67 /* Report */,
+				C3376408C6D3392F3639FA0E /* Reviews */,
+				0DFA5D43B9BF92466364B799 /* RoleSwitch */,
+				FF41C5F5459B0094F771BABB /* Search */,
+				8F3CFFC21CB4909B24BD16FB /* ServiceDetail */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		313E7D455D15E656E2985D86 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				478288DA36FEAED3F6610A10 /* Components */,
+				1676F9693AEEE56A87E1798C /* Tokens */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		328BB235C6D88DBCB09AC628 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AE762D6E3597C5A37A4B2405 /* RZSegmentedControl.swift */,
+				4337CCEB596C9FC0A4500735 /* RZTabBar.swift */,
+				4FC7C4D995CF6796488A25CA /* RZTopBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		338E926CB5DF2DC6041A6A75 /* BrandDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4AA94C6F02C6D8089B6FA326 /* ViewModels */,
+				EFED0765484D5B379B8A311F /* Views */,
+			);
+			path = BrandDetail;
+			sourceTree = "<group>";
+		};
+		33C374AB4A5C792E97981AB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		347AF5C6C73956A161EDFAAF /* ProviderReservations */ = {
+			isa = PBXGroup;
+			children = (
+				EE1EEAFCDFA7BB004BC1ACF5 /* ViewModels */,
+				DBC6B8CDC71480450E8E8671 /* Views */,
+			);
+			path = ProviderReservations;
+			sourceTree = "<group>";
+		};
+		3999997FCA54BDDC32A453BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5E47966ED327FCE6A7BCB8B1 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3A944A24962A02A7588994BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F9304E89BC11B24737A4CF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44200F5B55250462E3E169E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44B4DEE3E35D5417D882EDDF /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CA77E956409BA1F8505E55E9 /* AppRouter.swift */,
+				DB3E6755EDD564C9518F2F5F /* Route.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		478288DA36FEAED3F6610A10 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CC3F77330933468E82AA45E5 /* Buttons */,
+				013E9687C1E8D743745EEF09 /* Cards */,
+				2783440EC7AEAC22A6C69C2F /* Feedback */,
+				D6E55B41FBC9FB9C07F1F532 /* Inputs */,
+				FF5C59D0A422C357FC3E5623 /* Layout */,
+				328BB235C6D88DBCB09AC628 /* Navigation */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		47B172E0B4CDC798BF61BF4D = {
+			isa = PBXGroup;
+			children = (
+				6B5863B9CA6272F93BE01FB5 /* Reziphay */,
+				9E4A5F70B65581C3EE7C2496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		493FF94558D53635891A37F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4AA94C6F02C6D8089B6FA326 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4C04B4114115C54673D8A8DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DB43B17CE9E18DF891472DB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4FE3E2948D3BE688C68070A2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5DB799549083E2BABF7D5F1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E47966ED327FCE6A7BCB8B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66D175649CFC58F2CC94A701 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		686448A80976C2E8DF028906 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69C71066DD87FF9758E287D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A2C9B53A1786669AA73A613 /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				FAABE803A33B98DEBFC6D436 /* ViewModels */,
+				7F8193ED7C72F6D77CAB1473 /* Views */,
+			);
+			path = Brands;
+			sourceTree = "<group>";
+		};
+		6B5863B9CA6272F93BE01FB5 /* Reziphay */ = {
+			isa = PBXGroup;
+			children = (
+				9AE4371510ED532780978608 /* App */,
+				DC6B6775E58F56CC616098CE /* Core */,
+				313E7D455D15E656E2985D86 /* DesignSystem */,
+				F7E1DE2B8BC74831159BE45E /* Extensions */,
+				3103BD36D92E4BE70FF92DE4 /* Features */,
+				9B531CEA4DECAE92530A7362 /* Models */,
+				E0E3056431C850C6E150A9A0 /* Resources */,
+				93BE2521AA4F2F2815D2716C /* Screens */,
+				78DA54269B15730F7CA57168 /* Services */,
+				E6D9543E1A8F5126CD129845 /* Shells */,
+			);
+			path = Reziphay;
+			sourceTree = "<group>";
+		};
+		74097DB116CCDCDC92A39FF8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		78DA54269B15730F7CA57168 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7F8193ED7C72F6D77CAB1473 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FFBE26A83AE14564A33BD48 /* ProviderShell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProviderShell;
+			sourceTree = "<group>";
+		};
+		8279C999C88620E43489BD6B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3E06C02128B764CC17573C5B /* AppRole.swift */,
+				F1AFDD2595BF113421B87B38 /* DayOfWeek.swift */,
+				E016165A2F0D4319670B51E6 /* NotificationType.swift */,
+				B2535035C3F3113D22E99B48 /* OtherEnums.swift */,
+				63B29410B7CFAFF3E368DCE9 /* ReservationStatus.swift */,
+				CCC6725C962511A12C12DBD9 /* ServiceType.swift */,
+				E326631FFC3248C7C4C7567A /* UserStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		844303B4B56929D0936079D3 /* QRFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1A5AE878D60F73584AA69B6C /* ViewModels */,
+				66D175649CFC58F2CC94A701 /* Views */,
+			);
+			path = QRFlow;
+			sourceTree = "<group>";
+		};
+		8AFA09F5F392FC3D6432423A /* ProviderDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4DB43B17CE9E18DF891472DB /* ViewModels */,
+				23590D6DA6302C4D3CF82858 /* Views */,
+			);
+			path = ProviderDashboard;
+			sourceTree = "<group>";
+		};
+		8C3C4FBFE64824CA74A3ADA1 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				39AD897CCA4E0E274758AF4A /* AuthManager.swift */,
+				C9D73360F20A7BE2172D98A9 /* KeychainService.swift */,
+				16DAE6A3BE46A5B8C6163729 /* TokenPayload.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8D375951550AC7293BAF2BD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F3CFFC21CB4909B24BD16FB /* ServiceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C53E1CF08537E3069509A94D /* ViewModels */,
+				4C04B4114115C54673D8A8DC /* Views */,
+			);
+			path = ServiceDetail;
+			sourceTree = "<group>";
+		};
+		93BE2521AA4F2F2815D2716C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B788F3B7980720D0DB45F2C3 /* Auth */,
+				D9627922079E40F4E3F9913B /* Common */,
+				064EA0AE574F8F41408CC961 /* Customer */,
+				FF869953FFBB2A5B0A988079 /* Provider */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9777D259807EBECD8B25F2E4 /* Penalty */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E2948D3BE688C68070A2 /* ViewModels */,
+				F3D910553A738FCED40A51F8 /* Views */,
+			);
+			path = Penalty;
+			sourceTree = "<group>";
+		};
+		9810F1E7DA6D6EC6C4C19AFD /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5EE49CF538F66FEC80433 /* BrandJoinRequestsScreen.swift */,
+				EE24D5235757552A0013CF25 /* BrandListScreen.swift */,
+				4ED82B705AC62C23BDFA5CCE /* CreateBrandScreen.swift */,
+				1060FC3A4F341AB818411CA7 /* EditBrandScreen.swift */,
+				BD4EC80C840F0F51A9870E2D /* ProviderBrandDetailScreen.swift */,
+			);
+			path = Brands;
+			sourceTree = "<group>";
+		};
+		98EDD58CECDB358AB555B585 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AE4371510ED532780978608 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6B6DD5EF85BDFBBC8455F /* AppState.swift */,
+				A551F5E831B23F72C05970BA /* ReziphayApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9B531CEA4DECAE92530A7362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8279C999C88620E43489BD6B /* Enums */,
+				2D0AAD90325A18618E3A09E1 /* Brand.swift */,
+				F434E84C720B8DB316B06149 /* Notification.swift */,
+				D7CC3E3FBF042C6DF78FCA34 /* Penalty.swift */,
+				52BC8634421A2ECD584182AA /* Report.swift */,
+				2B14D38F51CD71B8FFE75296 /* Reservation.swift */,
+				91EB1F8B1E62498C355F71AA /* Review.swift */,
+				C3FA3E6A68CC768B2B692FBB /* SearchResult.swift */,
+				963938B512E6E85E4ED0FBA7 /* Service.swift */,
+				D66AA637CE60B7DE9766F868 /* ServiceCategory.swift */,
+				CE9D0A8DF86CBD21405D081B /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9CF9744AEA22B8B3A8440C13 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9E4A5F70B65581C3EE7C2496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707E0B743168020B1BDEDC8B /* Reziphay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FB088105BC5512DACD57F4 /* Reservations */ = {
+			isa = PBXGroup;
+			children = (
+				CDD92FCCC79754C014C6D729 /* CancelReservationSheet.swift */,
+				3769068C7E5C0D53237F1805 /* ChangeReservationRequestSheet.swift */,
+				CA49BECD978486C177770DA7 /* CustomerReservationDetailScreen.swift */,
+				6FE3A475D935247C28F5E05F /* CustomerReservationsListScreen.swift */,
+				C20518B3E89126874B040E72 /* ObjectionSubmissionScreen.swift */,
+				D48B7B035EB5C391EDE1864C /* QRCompletionResultScreen.swift */,
+				DC05CF33F764C1EBCE16EAC1 /* QRScanScreen.swift */,
+				35A22B943CEBF344609AE553 /* ReservationRequestScreen.swift */,
+				DFCFCE73539514E22A7B61D8 /* ReservationSuccessScreen.swift */,
+			);
+			path = Reservations;
+			sourceTree = "<group>";
+		};
+		A2CEE6EA4FA516B45B217812 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4ADFEF47333A8A6039F81 /* AuthFlowState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A37DD04A39E5F48DCC4CF7E4 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				E0C6C2708E6B48CDC0D4FFD1 /* UserDefaultsStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		A73D9E4714C51449B3B3C077 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				837E2E480AC636EDCDCA35E7 /* ReviewCreateScreen.swift */,
+				D9AC9C1429EFB7D7CF42C1CE /* ReviewDeleteConfirmationSheet.swift */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		A8B73FACA1BB89039C5573A1 /* CustomerShell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomerShell;
+			sourceTree = "<group>";
+		};
+		A9454A838B1EE30C7DB33E4D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				65860463B0B27C749564F9E0 /* AvailabilityExceptionsSection.swift */,
+				5B8443352426F9E58B7DAA45 /* AvailabilityRulesEditorSection.swift */,
+				0506755F2A7227C714A2F8AC /* ServicesListScreen.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AED4FD5F1D33E44E282E29CD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B2E725D8A0536F037BD7DEA1 /* ProviderServices */ = {
+			isa = PBXGroup;
+			children = (
+				225D337BAF65D4B9C2BF1AAA /* ViewModels */,
+				69C71066DD87FF9758E287D6 /* Views */,
+			);
+			path = ProviderServices;
+			sourceTree = "<group>";
+		};
+		B4DC092DBC1055781CAF51B2 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				74397371AF94A0114853FD03 /* ProviderQRScreen.swift */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		B788F3B7980720D0DB45F2C3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A2CEE6EA4FA516B45B217812 /* Models */,
+				A2B789A0614E2178046E953B /* AccountClosedScreen.swift */,
+				2395730DE0D8276B121CF150 /* AccountSuspendedScreen.swift */,
+				0DA5D471CB5BB45C2FC5C71F /* EmailLinkResultScreen.swift */,
+				8DA55160B4C43615A615FB93 /* LoginScreen.swift */,
+				948BC936860F21FEC29E8910 /* OTPVerificationScreen.swift */,
+				AB5155547C217260FFDD31B4 /* RegisterScreen.swift */,
+				8C7DA455989C74C20816EE3B /* SplashScreen.swift */,
+				B76311C7B62945FC96581706 /* WelcomeScreen.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BDC97E9C4543169D629C1378 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEC6EDE147FEA0CB6E165042 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0560C5824C62F3C3CB35BF6 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0C44E2220E325B351883AF69 /* ViewModels */,
+				8D375951550AC7293BAF2BD4 /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C3376408C6D3392F3639FA0E /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				686448A80976C2E8DF028906 /* ViewModels */,
+				3F9304E89BC11B24737A4CF5 /* Views */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		C53E1CF08537E3069509A94D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC3F77330933468E82AA45E5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4979D9D76C37A8FD07E08BFD /* RZButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		CE3CAA74CB736A7379D4CC21 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6F9678845286195AE83876E7 /* APIClient.swift */,
+				4431FFE31C762EB6B3617F33 /* APIEndpoints.swift */,
+				0239FEB6926794A58E8A390B /* APIError.swift */,
+				AE2BCCAD844F738B75FAFDD5 /* APIResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CF2F64B5C962EB3B1F8686F7 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2709CF0F68E973799C666374 /* PushNotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		D20B4E94CE576577A6EB4A07 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D248ECA91E34BE02F62312BB /* ProviderDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9744AEA22B8B3A8440C13 /* ViewModels */,
+				44200F5B55250462E3E169E6 /* Views */,
+			);
+			path = ProviderDetail;
+			sourceTree = "<group>";
+		};
+		D597EA40E3243E7189FF158B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5A4ACF2324EC19BD96ED08F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D6E55B41FBC9FB9C07F1F532 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				F55BFC2957372E73477BB8E7 /* RZOTPField.swift */,
+				25E9D15D247A7BEE55F39A75 /* RZPhoneField.swift */,
+				51BC47A952C444B1DE7575A2 /* RZSearchField.swift */,
+				DC0019E405D6780A5DF2EA2B /* RZTextArea.swift */,
+				D20780F9F74063B94524D323 /* RZTextField.swift */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		D9627922079E40F4E3F9913B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				68FC5C24B3C008C0F33A4FBA /* NotFoundScreen.swift */,
+				99E51D3B164D0C4992F75F6B /* NotificationsScreen.swift */,
+				D9251B0215116734C15C1A43 /* PenaltySummaryScreen.swift */,
+				190007290882A636D50DB222 /* PlaceholderScreen.swift */,
+				29253222DE27FAA1EA361796 /* ProfileScreen.swift */,
+				D206C7E675EBB8D72B6F187C /* ReportSubmissionSheet.swift */,
+				B4631D6CBF56E050D806D19E /* ReviewDetailSheet.swift */,
+				1CE4CAF3FF2E7E4F9C13CC21 /* RoleSwitchSheet.swift */,
+				AA96F54E420724ED3820F885 /* SettingsScreen.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DBC6B8CDC71480450E8E8671 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC6B6775E58F56CC616098CE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8C3C4FBFE64824CA74A3ADA1 /* Auth */,
+				20927A5B04DA3A2A0BF349D4 /* Location */,
+				44B4DEE3E35D5417D882EDDF /* Navigation */,
+				CE3CAA74CB736A7379D4CC21 /* Network */,
+				CF2F64B5C962EB3B1F8686F7 /* Notifications */,
+				A37DD04A39E5F48DCC4CF7E4 /* Storage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E0E3056431C850C6E150A9A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9C6DA3EF9DB9CA58A66508A /* Assets.xcassets */,
+				EDB332C07B87168996549232 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E372EA1BB8B78EA3FA94CF6D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D20B4E94CE576577A6EB4A07 /* ViewModels */,
+				33C374AB4A5C792E97981AB2 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E6D9543E1A8F5126CD129845 /* Shells */ = {
+			isa = PBXGroup;
+			children = (
+				7EA80BF608070866C61ACC25 /* CustomerTabView.swift */,
+				E37DFA6E8EDAB125976A75AE /* ProviderTabView.swift */,
+			);
+			path = Shells;
+			sourceTree = "<group>";
+		};
+		ECC520DE96828890B9862828 /* Reservations */ = {
+			isa = PBXGroup;
+			children = (
+				968B61097215B0D3539F0C9B /* ProviderCancelReservationSheet.swift */,
+				F1F73F0F6ADD0653B04D6F65 /* ProviderChangeRequestSheet.swift */,
+				1F0D97A21AB1C59ED9129CE3 /* ProviderReservationDetailScreen.swift */,
+				97ECA8A22E086F0CC9446A8E /* ProviderReservationsListScreen.swift */,
+			);
+			path = Reservations;
+			sourceTree = "<group>";
+		};
+		ED0B38E101FE3551B06D8240 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE1EEAFCDFA7BB004BC1ACF5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EFED0765484D5B379B8A311F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F11C2BF76DB26F162D9A10FB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F3C895487FE92167D37D367A /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B38E101FE3551B06D8240 /* ViewModels */,
+				BEC6EDE147FEA0CB6E165042 /* Views */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		F3D910553A738FCED40A51F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7E1DE2B8BC74831159BE45E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D1FD27FB715B731B6BC61C3 /* Date+Extensions.swift */,
+				51132287F93AC430D4F50942 /* String+Extensions.swift */,
+				4790E0D710BC0CAEAAA6C720 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F7FC9D1521C54300FA19C91F /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				8330B553B8BB4861846E50AF /* BrandDetailScreen.swift */,
+				70DC0871C5602516B2F0910D /* CategoryDetailScreen.swift */,
+				D1137C87EEFEE581AC2F3BCD /* CustomerHomeScreen.swift */,
+				C2C43B98F864F349A0026214 /* ProviderDetailScreen.swift */,
+				1BE6EAB09807743C71055D81 /* SearchFilterSheet.swift */,
+				9AC978BAE7C54B2C3B35550F /* SearchScreen.swift */,
+				81398C7C335AC2BF9CED3818 /* ServiceDetailScreen.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		FAABE803A33B98DEBFC6D436 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF41C5F5459B0094F771BABB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				022157FBBE6C63B58594111B /* ViewModels */,
+				3A944A24962A02A7588994BE /* Views */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		FF5C59D0A422C357FC3E5623 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				E26C0780DF3ED2E2C58F8DE2 /* RZAvatarView.swift */,
+				2D3F99AE43C892F81E8A0FA4 /* RZBottomSheet.swift */,
+				CC53EB7850126232B689E1DB /* RZConfirmationDialog.swift */,
+				C9522B0520BA403FB4C44351 /* RZFilterChipRow.swift */,
+				02FA9FD261E01BAC9764BE51 /* RZImageCarousel.swift */,
+				BD16B5572C9E078A0A3D22C1 /* RZRatingRow.swift */,
+				03497C69564E9353863FDF18 /* RZSectionHeader.swift */,
+				D7901B47300D08A308CBF98B /* RZStarSelector.swift */,
+				6719926BDF401D922B7DE01C /* RZTimelineItem.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		FF869953FFBB2A5B0A988079 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				9810F1E7DA6D6EC6C4C19AFD /* Brands */,
+				B4DC092DBC1055781CAF51B2 /* QR */,
+				ECC520DE96828890B9862828 /* Reservations */,
+				A9454A838B1EE30C7DB33E4D /* Services */,
+				F2ABD94C8CC174217B54E428 /* ProviderDashboardScreen.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB48BF7A13F30A42A57A556 /* Reziphay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B496CAF2208DFDA5FA125AA9 /* Build configuration list for PBXNativeTarget "Reziphay" */;
+			buildPhases = (
+				3A0B8406FDB916BB759CE1AA /* Sources */,
+				CBADCD22F7E64C99B5E4DA85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reziphay;
+			packageProductDependencies = (
+			);
+			productName = Reziphay;
+			productReference = 707E0B743168020B1BDEDC8B /* Reziphay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAEAC8F42889714EB14B4B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					AFB48BF7A13F30A42A57A556 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 41FE91B9C6AFF6A095DB64D5 /* Build configuration list for PBXProject "Reziphay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 47B172E0B4CDC798BF61BF4D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9E4A5F70B65581C3EE7C2496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB48BF7A13F30A42A57A556 /* Reziphay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBADCD22F7E64C99B5E4DA85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60D1733661FC599077DF838 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A0B8406FDB916BB759CE1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542DD1820971E184DB7F918E /* APIClient.swift in Sources */,
+				B01353C6A943555F091840D7 /* APIEndpoints.swift in Sources */,
+				0A4D4AD9331F757C91436F07 /* APIError.swift in Sources */,
+				40649D546C573197C3B153FC /* APIResponse.swift in Sources */,
+				97EE42E868F4258A139B35B0 /* AccountClosedScreen.swift in Sources */,
+				CED1CA273785C1D1009CFECF /* AccountSuspendedScreen.swift in Sources */,
+				F96154525901CC0CBA76AB41 /* AppRole.swift in Sources */,
+				A4D21B3559FB5298FD2A3532 /* AppRouter.swift in Sources */,
+				D695AAB33079B08FE7481B69 /* AppState.swift in Sources */,
+				6770749600EC93F756E7F638 /* AuthFlowState.swift in Sources */,
+				68A96A4D26C5B7283F8488DE /* AuthManager.swift in Sources */,
+				95E405B8846E9B6E3CD6BA69 /* AvailabilityExceptionsSection.swift in Sources */,
+				D380CF31C83CB6D0B3EB11DB /* AvailabilityRulesEditorSection.swift in Sources */,
+				3CDA440C6E562A2660EC9C58 /* Brand.swift in Sources */,
+				D4B199BBB4CB2343EB435492 /* BrandCard.swift in Sources */,
+				25CBE7EFE74B70D7061D8764 /* BrandDetailScreen.swift in Sources */,
+				B5BB24A6ED9F4B4D03F6B320 /* BrandJoinRequestsScreen.swift in Sources */,
+				4B0CEE595D83EDE84E24ED3A /* BrandListScreen.swift in Sources */,
+				1F0F47210E2DB4AA4A55A811 /* CancelReservationSheet.swift in Sources */,
+				DD291999228F968C0A91B4F6 /* CategoryDetailScreen.swift in Sources */,
+				F4495F8082AD7874295013E7 /* ChangeReservationRequestSheet.swift in Sources */,
+				8D3637A816FD2711F9015EB2 /* Colors.swift in Sources */,
+				1CDA13C8519EAD901E4B9356 /* CreateBrandScreen.swift in Sources */,
+				FE1DA6316064CA949E49D3A2 /* CustomerHomeScreen.swift in Sources */,
+				9BEA09F847A683C12B733DF6 /* CustomerReservationDetailScreen.swift in Sources */,
+				1B18DF52A4FCD27F42B2319A /* CustomerReservationsListScreen.swift in Sources */,
+				C87D2A93D5C0EB09F91A2E5B /* CustomerTabView.swift in Sources */,
+				BC7184587D064527418A7C98 /* Date+Extensions.swift in Sources */,
+				DB2ABD142059C6F2D20E4056 /* DayOfWeek.swift in Sources */,
+				A72BE103F9509E5EF0FD8FF8 /* Durations.swift in Sources */,
+				F9D5014CE0666A0B8C1E789B /* EditBrandScreen.swift in Sources */,
+				1765D2C43152E3407CE3C4C9 /* EmailLinkResultScreen.swift in Sources */,
+				F336FFCC392B3A0978A59724 /* KeychainService.swift in Sources */,
+				BAE3B3508E4CCDD1CCA1004E /* LocationManager.swift in Sources */,
+				4B40636993E7965CDB9D352D /* LoginScreen.swift in Sources */,
+				9021FBADE290F3FFECA96EF9 /* NotFoundScreen.swift in Sources */,
+				38090E0532DE9F8C71038392 /* Notification.swift in Sources */,
+				A914B49E4A9E9994D7E676D0 /* NotificationType.swift in Sources */,
+				FCC4F311C2A9E8E9FC9D398D /* NotificationsScreen.swift in Sources */,
+				0020BD89D77B7237FE829283 /* OTPVerificationScreen.swift in Sources */,
+				C1E5CCDEE7FC3631C6284C76 /* ObjectionSubmissionScreen.swift in Sources */,
+				5F4C9635FDB79AA7F588BDDE /* OtherEnums.swift in Sources */,
+				5874E731FF5C020FF955E94F /* Penalty.swift in Sources */,
+				D36B5E221ED0677A1F368608 /* PenaltySummaryScreen.swift in Sources */,
+				5209D046304439ECD6C18F1F /* PlaceholderScreen.swift in Sources */,
+				8788A2A02AF4D9E972BEF58E /* ProfileScreen.swift in Sources */,
+				1BFB472EDB32907C97BC19A0 /* ProviderBrandDetailScreen.swift in Sources */,
+				57A8A3BC9D33133B8735274D /* ProviderCancelReservationSheet.swift in Sources */,
+				C66B6D943B79469BAC39FEC2 /* ProviderCard.swift in Sources */,
+				254C98BEB1311C133A6B8E76 /* ProviderChangeRequestSheet.swift in Sources */,
+				387B60BAEFE200402F9107E0 /* ProviderDashboardScreen.swift in Sources */,
+				39074EF33BF1BFA4D9ECACE6 /* ProviderDetailScreen.swift in Sources */,
+				4F01F2C381EF6F72EED57B70 /* ProviderQRScreen.swift in Sources */,
+				DF74F21CC00590310CCFFACA /* ProviderReservationDetailScreen.swift in Sources */,
+				92F1972C851F4C5C5E0904FE /* ProviderReservationsListScreen.swift in Sources */,
+				1DB43CEE65BDD4832EED4CB2 /* ProviderTabView.swift in Sources */,
+				D3DED39EC61D2B07298D7905 /* PushNotificationManager.swift in Sources */,
+				DD059DAE999B1BE91AFE3A57 /* QRCompletionResultScreen.swift in Sources */,
+				97819C55A2102F7A54AFBBFE /* QRScanScreen.swift in Sources */,
+				398B71716D447B99B687ABAC /* RZAvatarView.swift in Sources */,
+				231C6B3F3A4900D4207AC7CE /* RZBottomSheet.swift in Sources */,
+				DA18CEFE49B5FAE54AEB37BF /* RZButton.swift in Sources */,
+				DFB69D3A97D6CEB1D97143EB /* RZCard.swift in Sources */,
+				7786308EB4FB10635B7E1309 /* RZConfirmationDialog.swift in Sources */,
+				4A375EF7FF9B1379F6F8CF9C /* RZEmptyState.swift in Sources */,
+				749F409CB9B68808CDFEAA7F /* RZFilterChipRow.swift in Sources */,
+				512A61D80B5E6913E6F65190 /* RZImageCarousel.swift in Sources */,
+				A15BF0AFBBF93894DA0926BD /* RZLoadingIndicator.swift in Sources */,
+				406F5301162C139CA6C51AF0 /* RZOTPField.swift in Sources */,
+				A9A19699D54709C1CC22C251 /* RZPhoneField.swift in Sources */,
+				2717D6705F2D9879B15CFB08 /* RZRatingRow.swift in Sources */,
+				020633527A81C9CC24A4302C /* RZSearchField.swift in Sources */,
+				91DD32E6A9C5C481AF597BCF /* RZSectionHeader.swift in Sources */,
+				DE3E5A28AF11D7FF7B70BEE2 /* RZSegmentedControl.swift in Sources */,
+				84288CB8BDD747E5409E0FAA /* RZSkeletonView.swift in Sources */,
+				23FD1284CC6583C87DBD35A6 /* RZStarSelector.swift in Sources */,
+				E58DFCAE76EBB70521E8269F /* RZStatusPill.swift in Sources */,
+				D91B21611025499F2B7CD46C /* RZTabBar.swift in Sources */,
+				8AF7E68079A619B7AD0796E5 /* RZTextArea.swift in Sources */,
+				B391B0C9D3899EAD14C90C5A /* RZTextField.swift in Sources */,
+				71FA79C46653F73B137C451D /* RZTimelineItem.swift in Sources */,
+				3E039E7D7412DCE554CB7072 /* RZToast.swift in Sources */,
+				509F04D39CB244A61F341A14 /* RZTopBar.swift in Sources */,
+				D91DF6D1B957851430573542 /* Radius.swift in Sources */,
+				0409C2E191F7C8E4586CEED3 /* RegisterScreen.swift in Sources */,
+				252901EAD06471A9D02D7F67 /* Report.swift in Sources */,
+				E44A85E09E9292544FAB9546 /* ReportSubmissionSheet.swift in Sources */,
+				935B8F7ED97E81D2366F4042 /* Reservation.swift in Sources */,
+				65BB083A96148E2C8EDF8E60 /* ReservationCard.swift in Sources */,
+				6195FD9AE6279F83420F7F48 /* ReservationRequestScreen.swift in Sources */,
+				BA1800EB544586AAF23098FC /* ReservationStatus.swift in Sources */,
+				2F8E16FFCD0F7447015051ED /* ReservationSuccessScreen.swift in Sources */,
+				DFEC06DB09C01F7E520E10EE /* Review.swift in Sources */,
+				EC9018B73C95E7E2891C14D0 /* ReviewCard.swift in Sources */,
+				8C08C6E2D72815B23E7D3C43 /* ReviewCreateScreen.swift in Sources */,
+				360A0D25EB9A797EFEB6E83E /* ReviewDeleteConfirmationSheet.swift in Sources */,
+				4FB4B0B7A3F89AD18CE2ABBC /* ReviewDetailSheet.swift in Sources */,
+				1FB38E1E4E951ED714A9F445 /* ReziphayApp.swift in Sources */,
+				63B4F42DDC20B5DD43AA7778 /* RoleSwitchSheet.swift in Sources */,
+				E745687B7097833FAAEB7B11 /* Route.swift in Sources */,
+				AC229EFF33C62928E337BDF4 /* SearchFilterSheet.swift in Sources */,
+				DBC2353B4F3C58E130BB3525 /* SearchResult.swift in Sources */,
+				9F6AF747D94B6E2EE983BC8E /* SearchScreen.swift in Sources */,
+				062033549CBE635B235D9A2E /* Service.swift in Sources */,
+				B6CBB9E7D27EFD676411B15B /* ServiceCard.swift in Sources */,
+				F93B29C5F016EAC8E9F5E2BE /* ServiceCategory.swift in Sources */,
+				0E5CAA035E74112B83B742D0 /* ServiceDetailScreen.swift in Sources */,
+				FA2BA91749F4A570EE4EED44 /* ServiceType.swift in Sources */,
+				9B1ADCDB81CA95540997CF7A /* ServicesListScreen.swift in Sources */,
+				E03FA60015F21450772DD37F /* SettingsScreen.swift in Sources */,
+				364DA6DEF9201BFE041208D5 /* Shadows.swift in Sources */,
+				526B119086C71EAFC4517442 /* Spacing.swift in Sources */,
+				34B3B8E936E68061BDE9B451 /* SplashScreen.swift in Sources */,
+				3D23E0AEC90C2A4E5CB0872B /* String+Extensions.swift in Sources */,
+				63A6EB63B0C3F84DFBBC5EF9 /* TokenPayload.swift in Sources */,
+				9428C72FFE387E6C8BD811BB /* Typography.swift in Sources */,
+				01DAE52138A531CA96D0A71E /* User.swift in Sources */,
+				1FB091476B32A137A1DC33E7 /* UserDefaultsStore.swift in Sources */,
+				659071E1E56222AAEE37EF9B /* UserStatus.swift in Sources */,
+				FBC496AF965DA29773B4C121 /* View+Extensions.swift in Sources */,
+				034373AEA3DCBCEF3A68E0D5 /* WelcomeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF910D9E1B5463A718085CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Reziphay;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Reziphay needs camera access to scan QR codes for reservation completion";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Reziphay uses your location to show nearby services";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Reziphay needs photo access to upload service and brand images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E1A2A36CFEDDBB12F95B62F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Reziphay;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Reziphay needs camera access to scan QR codes for reservation completion";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Reziphay uses your location to show nearby services";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Reziphay needs photo access to upload service and brand images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E56093123705FDABDC13ECEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Reziphay/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reziphay.app;
+				PRODUCT_NAME = Reziphay;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8658DADF3F0E477F87142BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Reziphay/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reziphay.app;
+				PRODUCT_NAME = Reziphay;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41FE91B9C6AFF6A095DB64D5 /* Build configuration list for PBXProject "Reziphay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2A36CFEDDBB12F95B62F4 /* Debug */,
+				CF910D9E1B5463A718085CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B496CAF2208DFDA5FA125AA9 /* Build configuration list for PBXNativeTarget "Reziphay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56093123705FDABDC13ECEE /* Debug */,
+				E8658DADF3F0E477F87142BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAEAC8F42889714EB14B4B88 /* Project object */;
+}
