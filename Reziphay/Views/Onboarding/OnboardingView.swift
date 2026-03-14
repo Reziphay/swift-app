@@ -23,6 +23,17 @@ struct OnboardingView: View {
                         .padding(.bottom, 48)
                 }
                 .padding(.horizontal, 24)
+
+                // Language switcher — top-right
+                VStack {
+                    HStack {
+                        Spacer()
+                        LanguageSwitcherButton()
+                    }
+                    .padding(.top, 56)
+                    .padding(.trailing, 20)
+                    Spacer()
+                }
             }
             .ignoresSafeArea()
             .navigationDestination(isPresented: $navigateToAuth) {

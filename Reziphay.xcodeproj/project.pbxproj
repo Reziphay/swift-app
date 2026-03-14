@@ -21,6 +21,8 @@
 		A4C33DF115377A425A987C81 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD12206D344F7A9B17650D5 /* Endpoint.swift */; };
 		A60D1733661FC599077DF838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C6DA3EF9DB9CA58A66508A /* Assets.xcassets */; };
 		A95B95DB839D57C58740E58F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935257E395B0F2373C539E /* AppState.swift */; };
+		E4FCF2432F6606DF00607420 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FCF2422F6606DF00607420 /* LanguageManager.swift */; };
+		E4FCF2452F6606FB00607420 /* LanguageSwitcherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FCF2442F6606FB00607420 /* LanguageSwitcherButton.swift */; };
 		EBD80638F5CFF393E7EDFB8F /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E939CE87A5A193C92399F /* OTPView.swift */; };
 		F2A994617A1BC743075097D8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9F58452C4A09B372856FB /* AuthService.swift */; };
 		F90983F4D35B13F79799C494 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87FC1A36C03F5A581F669F /* UserModels.swift */; };
@@ -45,6 +47,8 @@
 		D9C6DA3EF9DB9CA58A66508A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA1C8ECF166C0E84C257D99 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		DF0D5DB31AB68414C7F7DEC6 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		E4FCF2422F6606DF00607420 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LanguageManager.swift; path = Localization/LanguageManager.swift; sourceTree = "<group>"; };
+		E4FCF2442F6606FB00607420 /* LanguageSwitcherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LanguageSwitcherButton.swift; path = Reziphay/Views/Components/LanguageSwitcherButton.swift; sourceTree = SOURCE_ROOT; };
 		EDB332C07B87168996549232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,6 +190,8 @@
 		DC6B6775E58F56CC616098CE /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E4FCF2442F6606FB00607420 /* LanguageSwitcherButton.swift */,
+				E4FCF2422F6606DF00607420 /* LanguageManager.swift */,
 				24CCF8692624CEF2F2E5C27F /* Extensions */,
 				CE3CAA74CB736A7379D4CC21 /* Network */,
 				A37DD04A39E5F48DCC4CF7E4 /* Storage */,
@@ -274,6 +280,7 @@
 			files = (
 				542DD1820971E184DB7F918E /* APIClient.swift in Sources */,
 				1A3F47BF9194A3DB13B8CF15 /* App.swift in Sources */,
+				E4FCF2452F6606FB00607420 /* LanguageSwitcherButton.swift in Sources */,
 				A95B95DB839D57C58740E58F /* AppState.swift in Sources */,
 				659C8CABD76B4BC314169185 /* AuthModels.swift in Sources */,
 				F2A994617A1BC743075097D8 /* AuthService.swift in Sources */,
@@ -287,6 +294,7 @@
 				02363040F63BE2F366F38884 /* RegisterView.swift in Sources */,
 				19E331D39F79AAC8344EA465 /* RootView.swift in Sources */,
 				F90983F4D35B13F79799C494 /* UserModels.swift in Sources */,
+				E4FCF2432F6606DF00607420 /* LanguageManager.swift in Sources */,
 				4A0C3E911679AEE8EC21B7A4 /* View+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

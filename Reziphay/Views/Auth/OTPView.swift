@@ -7,6 +7,7 @@ import SwiftUI
 
 struct OTPView: View {
     let phone: String
+    let purpose: OTPPurpose
 
     @Environment(AppState.self) private var appState
     @State private var otpDigits: [String] = Array(repeating: "", count: 6)
@@ -188,7 +189,7 @@ struct OTPView: View {
         defer { isLoading = false }
 
         do {
-            let response = try await AuthService.shared.verifyOTP(phone: phone, code: otpCode)
+            let response = try await AuthService.shared.verifyOTP(phone: phone, code: otpCode, purpose: purpose)
             if response.user.isNewUser {
                 navigateToRegister = true
             } else {
@@ -207,7 +208,7 @@ struct OTPView: View {
 
     private func resendOTP() async {
         do {
-            try await AuthService.shared.requestOTP(phone: phone)
+            try await AuthService.shared.requestOTP(phone: phone, purpose: purpose)
             startResendTimer()
         } catch {
             errorMessage = "Failed to resend code. Please try again."

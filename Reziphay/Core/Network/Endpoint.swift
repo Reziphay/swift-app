@@ -35,23 +35,41 @@ struct Endpoint: Sendable {
     }
 }
 
+// MARK: - OTP Purpose
+
+enum OTPPurpose: String, Sendable {
+    case login    = "LOGIN"
+    case register = "REGISTER"
+}
+
 // MARK: - Auth Endpoints
 
 extension Endpoint {
-    static func requestOTP(phone: String) -> Endpoint {
-        Endpoint(
-            path: "/auth/otp/request",
+    static func requestOTP(
+        phone: String,
+        purpose: OTPPurpose,
+        fullName: String? = nil,
+        email: String? = nil
+    ) -> Endpoint {
+        var body: [String: String] = [
+            "phone": phone,
+            "purpose": purpose.rawValue
+        ]
+        if let fullName { body["fullName"] = fullName }
+        if let email    { body["email"]    = email    }
+        return Endpoint(
+            path: "/auth/request-phone-otp",
             method: .POST,
-            body: ["phone": phone],
+            body: body,
             requiresAuth: false
         )
     }
 
-    static func verifyOTP(phone: String, code: String) -> Endpoint {
+    static func verifyOTP(phone: String, code: String, purpose: OTPPurpose) -> Endpoint {
         Endpoint(
-            path: "/auth/otp/verify",
+            path: "/auth/verify-phone-otp",
             method: .POST,
-            body: ["phone": phone, "code": code],
+            body: ["phone": phone, "code": code, "purpose": purpose.rawValue],
             requiresAuth: false
         )
     }

@@ -13,16 +13,21 @@ struct AuthService {
 
     // MARK: - OTP
 
-    func requestOTP(phone: String) async throws {
+    func requestOTP(
+        phone: String,
+        purpose: OTPPurpose,
+        fullName: String? = nil,
+        email: String? = nil
+    ) async throws {
         _ = try await client.request(
-            .requestOTP(phone: phone),
+            .requestOTP(phone: phone, purpose: purpose, fullName: fullName, email: email),
             responseType: OTPRequestResponse.self
         )
     }
 
-    func verifyOTP(phone: String, code: String) async throws -> OTPVerifyResponse {
+    func verifyOTP(phone: String, code: String, purpose: OTPPurpose) async throws -> OTPVerifyResponse {
         let response = try await client.request(
-            .verifyOTP(phone: phone, code: code),
+            .verifyOTP(phone: phone, code: code, purpose: purpose),
             responseType: OTPVerifyResponse.self
         )
         await KeychainStore.shared.save(
